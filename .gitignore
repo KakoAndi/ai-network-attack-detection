@@ -1,0 +1,19 @@
+# Laravel Security & Vendor
+/laravel/vendor/
+/laravel/.env
+/laravel/storage/*.key
+/laravel/public/storage
+
+# Python Virtual Environment & Cache
+/fastapi-attack-detection/venv/
+/fastapi-attack-detection/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ML Model Artifacts (Ukurannya terlalu besar untuk GitHub biasa)
+/fastapi-attack-detection/models/*.pkl
+
+# OS System files
+.DS_Store
+Thumbs.db 
